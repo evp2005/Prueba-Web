@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 import urllib.parse
 
 def main():
-    datosTrafico = pd.read_csv(".\Dataset_limpio.csv")
+    datosTrafico = pd.read_csv("Dataset_limpio.csv")
     tablaTrafico = pd.DataFrame(datosTrafico)
     
     # ENCABEZADO DE LA PAGINA
